@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    font-family: "inter";
+    }
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(Imagens/fundo-menusuperior.svg);
+    color: aliceblue;
+}
+
+#menuinformacional{
+    background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+
+.icone{
+    margin: 40px 0px 30px 30px;
+    padding: 25px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+    margin: 50px 0px 40px 40px;
+}
+
+#titulovideo{
+    color: #247ba0;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+#video{
+    margin: 50px 25px 50px 100px
+}
+
+#carrossel{
+    background-color:#247ba0;
+    padding: 50px;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 10px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 10%;
+    cursor: pointer;
+
+}
+
+.seta:hover{
+    transform:translatey(-7pxs);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+text-align: center;
+
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+
+}
+
+input{ 
+    width: 300px;
+    height: 40px;
+    background-color: #eaece5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #2478a0;
+    height: 40px;
+    width: 250px;
+    color: #eaece5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: #eaece5;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #13141a74;
+    transition-duration: 0.5s;
+
+
+}
